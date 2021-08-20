@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/question_card">
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card_4"
+            style="@style/Widget.MaterialComponents.CardView"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:checkable="true"
+            android:clickable="true"
+            android:focusable="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                app:srcCompat="@drawable/wrong" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <!-- Media -->
+                <EditText
+                    android:id="@+id/c4_text"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="22dp"
+                    android:hint="@string/write_sth_nadd_image"
+                    android:textAppearance="?attr/textAppearanceBody2"
+                    android:textColor="?android:attr/textColorSecondary" />
+
+
+                <!-- Title, secondary and supporting text -->
+
+                <ImageView
+                    android:id="@+id/c4_image"
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/no_photo" />
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card_2"
+            style="@style/Widget.MaterialComponents.CardView"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="20dp"
+            android:checkable="true"
+            android:clickable="true"
+            android:focusable="true"
+            app:layout_constraintBottom_toTopOf="@+id/card_3"
+            app:layout_constraintEnd_toEndOf="parent">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <!-- Media -->
+                <EditText
+                    android:id="@+id/c2_text"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="22dp"
+                    android:hint="@string/write_sth_nadd_image"
+                    android:textAppearance="?attr/textAppearanceBody2"
+                    android:textColor="?android:attr/textColorSecondary" />
+
+
+                <!-- Title, secondary and supporting text -->
+
+                <ImageView
+                    android:id="@+id/c2_image"
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/no_photo" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                app:srcCompat="@drawable/wrong" />
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card_3"
+            style="@style/Widget.MaterialComponents.CardView"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginBottom="8dp"
+            android:checkable="true"
+            android:clickable="true"
+            android:focusable="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                app:srcCompat="@drawable/wrong" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <!-- Media -->
+                <EditText
+                    android:id="@+id/c3_text"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="22dp"
+                    android:hint="@string/write_sth_nadd_image"
+                    android:textAppearance="?attr/textAppearanceBody2"
+                    android:textColor="?android:attr/textColorSecondary" />
+
+
+                <!-- Title, secondary and supporting text -->
+
+                <ImageView
+                    android:id="@+id/c3_image"
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/no_photo" />
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card_1"
+            style="@style/Widget.MaterialComponents.CardView"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginBottom="20dp"
+            android:checkable="true"
+            android:clickable="true"
+            android:focusable="true"
+            app:layout_constraintBottom_toTopOf="@+id/card_4"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                app:srcCompat="@drawable/wrong" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <!-- Media -->
+                <EditText
+                    android:id="@+id/c1_text"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="22dp"
+                    android:hint="@string/write_sth_nadd_image"
+                    android:textAppearance="?attr/textAppearanceBody2"
+                    android:textColor="?android:attr/textColorSecondary" />
+
+
+                <!-- Title, secondary and supporting text -->
+
+                <ImageView
+                    android:id="@+id/c1_image"
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/no_photo" />
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/question_card"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:checkable="true"
+        android:clickable="true"
+        android:focusable="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/topic_inp_layout">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <!-- Media -->
+            <EditText
+                android:id="@+id/q_text"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="8dp"
+                android:hint="@string/write_the_question"
+                android:textAppearance="?attr/textAppearanceBody2"
+                android:textColor="?android:attr/textColorSecondary" />
+
+
+            <!-- Title, secondary and supporting text -->
+
+            <ImageView
+                android:id="@+id/q_image"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/no_photo" />
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/topic_inp_layout"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="296dp"
+        android:layout_height="55dp"
+        android:gravity="center"
+        android:hint="Choose a Topic"
+        app:boxStrokeColor="@color/colorPrimary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/topic_inp"
+            android:focusableInTouchMode="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="none" />
+
+    <!--<TextView
+        android:id="@+id/topic_inp_layout"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="296dp"
+        android:layout_height="55dp"
+        android:gravity="center"
+        android:hint="Choose a Topic"
+        app:boxStrokeColor="@color/colorPrimary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />-->
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+    <ProgressBar
+        android:id="@+id/save_ques"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/constraintLayout3" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/cancel_question"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_width="159dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="16dp"
+            android:gravity="center"
+            android:text="Cancel"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/save_question"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_width="159dp"
+            android:layout_height="45dp"
+            android:gravity="center"
+            android:text="Save"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.552"
+            app:layout_constraintStart_toEndOf="@+id/cancel_question" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Torobche</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="home">Home</string>
+    <string name="activity">Activity</string>
+    <string name="chat">Chat</string>
+    <string name="game">Game</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="not_entered">Not Entered</string>
+    <string name="weak">WEAK</string>
+    <string name="medium">MEDIUM</string>
+    <string name="strong">STRONG</string>
+    <string name="max_reach">Password Max Length Reached</string>
+    <string name="not_set">Not Entered</string>
+    <string name="verification_code">Verification Code</string>
+    <string name="signup">Signup</string>
+    <string name="weak_pass">Password is weak</string>
+    <string name="incorrect_input">Incorrect Inputs</string>
+    <string name="incorrect_code">incorrect code</string>
+    <string name="verified">verified successfully</string>
+    <string name="login">Login</string>
+    <string name="create_account">Create Account </string>
+    <string name="forget_password">Forget password</string>
+    <string name="password">Password</string>
+    <string name="username_input">Username</string>
+    <string name="login_suc">Login Successful</string>
+    <string name="logout_tmp_btn">Logout (tmp btn)</string>
+    <string name="logout">Logged Out</string>
+    <string name="already_logged">\"Already Logged In: \"</string>
+    <string name="logout_settings">Logout and Exit</string>
+    <string name="help_and_feedback">Help and Feedback</string>
+    <string name="lev_na">Level: NA</string>
+    <string name="lev">Level: </string>
+    <string name="favorite_topics">Favorite Topics</string>
+    <string name="write_sth_nadd_image">Write sth \\\nAdd image</string>
+    <string name="write_the_question">Write The Question</string>
+    <string name="choose_a_topic">Choose a Topic...</string>
+    <string name="edit">Edit</string>
+    <string name="add">Add</string>
+    <string name="enter_participant_usernames">Enter Participant Usernames</string>
+</resources>

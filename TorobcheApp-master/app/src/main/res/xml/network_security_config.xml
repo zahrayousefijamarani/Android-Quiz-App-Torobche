@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+   <!-- <base-config>
+        <trust-anchors>
+            <certificates src="@raw/torob2"/>
+            <certificates src="system"/>
+            <certificates src="user"/>
+        </trust-anchors>
+    </base-config>-->
+
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">195.248.241.235</domain>
+        <trust-anchors>
+            <certificates src="@raw/torob2"/>
+            <certificates src="@raw/torob1"/>
+            <certificates src="system"/>
+            <certificates src="user"/>
+        </trust-anchors>
+    </domain-config>
+    <base-config cleartextTrafficPermitted="false"/>
+  <!--  <debug-overrides>
+
+    </debug-overrides>-->
+</network-security-config>
