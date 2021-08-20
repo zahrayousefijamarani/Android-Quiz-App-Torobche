@@ -2,5 +2,5 @@
 Android Quiz App
 
 ## Team member
-Zahra Yousefi Jamarani
-Mohsen Dehghankar
+- Zahra Yousefi Jamarani
+- Mohsen Dehghankar
